@@ -6,29 +6,53 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use SynOmics, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install synomics
 
-Creating recipes
-----------------
+Quick Start
+-----------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Here's a simple example to get you started with SynOmics:
 
-.. autofunction:: lumache.get_random_ingredients
+.. code-block:: python
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+   import synomics
+   
+   # Generate a synthetic DNA sequence
+   dna_sequence = synomics.generate_synthetic_sequence(length=100, sequence_type="DNA")
+   print(f"Generated DNA: {dna_sequence}")
+   
+   # Generate a synthetic RNA sequence
+   rna_sequence = synomics.generate_synthetic_sequence(length=100, sequence_type="RNA")
+   print(f"Generated RNA: {rna_sequence}")
+   
+   # Generate a synthetic protein sequence
+   protein_sequence = synomics.generate_synthetic_sequence(length=100, sequence_type="protein")
+   print(f"Generated protein: {protein_sequence}")
 
-.. autoexception:: lumache.InvalidKindError
+Core Features
+-------------
 
-For example:
+SynOmics provides several core features for working with synthetic genomics data:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+Sequence Generation
+~~~~~~~~~~~~~~~~~~~
+
+Generate synthetic biological sequences for testing and research purposes:
+
+* DNA sequences
+* RNA sequences
+* Protein sequences
+
+For more detailed examples, see the :doc:`examples` section.
+
+API Overview
+------------
+
+SynOmics provides a simple and intuitive API for working with synthetic genomics data.
+
+For detailed API documentation, see the :doc:`api` section.
 
