@@ -1,13 +1,13 @@
-Welcome to Lumache's documentation!
+Welcome to SynOmics Documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**SynOmics** is a Python library for synthetic omics data analysis and processing.
+
+This library provides tools and utilities for working with synthetic omics data,
+including data generation, analysis, and visualization capabilities.
 
 Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+how to :ref:`install <installation>` the project.
 
 .. note::
 
@@ -20,4 +20,3 @@ Contents
 
    usage
    api
-Lumache hosts its documentation on Read the Docs The Chuong TRINH

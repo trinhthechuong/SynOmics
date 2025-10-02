@@ -6,29 +6,37 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use SynOmics, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install synomics
 
-Creating recipes
-----------------
+Getting Started
+---------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+SynOmics provides a comprehensive suite of tools for synthetic omics data analysis.
 
-.. autofunction:: lumache.get_random_ingredients
+Basic Usage
+~~~~~~~~~~~
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+Once installed, you can import and use SynOmics in your Python projects:
 
-.. autoexception:: lumache.InvalidKindError
+.. code-block:: python
 
-For example:
+   import synomics
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+   # Your code here
+
+Features
+--------
+
+SynOmics includes the following key features:
+
+* Data generation utilities
+* Analysis tools
+* Visualization capabilities
+* Integration with common omics workflows
+
+For detailed API documentation, see the :doc:`api` section.
 

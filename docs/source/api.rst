@@ -1,7 +1,9 @@
-API
-===
+API Reference
+=============
 
-.. autosummary::
-   :toctree: generated
+This section provides detailed API documentation for SynOmics.
 
-   lumache
+.. note::
+
+   API documentation will be automatically generated from the source code
+   using autodoc when the SynOmics package is available.

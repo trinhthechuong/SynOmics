@@ -1,9 +1,28 @@
-Template for the Read the Docs tutorial
-=======================================
+SynOmics
+========
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+**SynOmics** is a Python library for synthetic omics data analysis and processing.
 
-Read the tutorial here:
+Overview
+--------
 
-https://docs.readthedocs.io/en/stable/tutorial/
+SynOmics provides tools and utilities for working with synthetic omics data, 
+including data generation, analysis, and visualization capabilities.
+
+Documentation
+-------------
+
+Full documentation is available at Read the Docs.
+
+Authors
+-------
+
+* The-Chuong Trinh
+* Guido Ugguzoni
+* Jean-Baptiste Woillard
+* Christophe Battail
+
+License
+-------
+
+Copyright 2025, Trinh
