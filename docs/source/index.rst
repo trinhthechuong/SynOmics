@@ -20,4 +20,4 @@ Contents
 
    usage
    api
-Lumache hosts its documentation on Read the Docs.
+Lumache hosts its documentation on Read the Docs The Chuong TRINH
