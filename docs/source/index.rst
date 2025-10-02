@@ -14,7 +14,29 @@ Contents
 
 .. toctree::
    :maxdepth: 2
+   :caption: User Guide
 
    usage
+   examples
+
+.. toctree::
+   :maxdepth: 2
+   :caption: API Documentation
+
    api
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Development
+
+   contributing
+   changelog
+
+Indices and tables
+------------------
+
+* :ref:`genindex`
+* :ref:`search`
+
+
 
