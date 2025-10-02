@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'SynOmics'
+copyright = '2025, Trinh'
+author = 'The-Chuong Trinh, Guido Ugguzoni, Jean-Baptiste Woillard, Christophe Battail'
 
 release = '0.1'
 version = '0.1.0'
