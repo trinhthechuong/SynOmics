@@ -1,15 +1,14 @@
 SynOmics
 ========
 
-**SynOmics** is a Python library for synthetic genomics and omics data analysis.
+**SynOmics** is a Python library for synthetic clinical and transcriptomics data analysis.
 
 Features
 --------
 
-* Synthetic data generation for genomics research
+* Synthetic data generation for transcriptomics research
 * Data analysis and visualization tools
 * Integration with popular bioinformatics pipelines
-* Comprehensive API for custom workflows
 
 Documentation
 -------------
@@ -43,7 +42,7 @@ Authors
 -------
 
 * The-Chuong Trinh
-* Guido Ugguzoni
+* Guido Uguzzoni
 * Jean-Baptiste Woillard
 * Christophe Battail
 
