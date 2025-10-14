@@ -25,6 +25,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.napoleon',
 ]
 
 # Mock heavy/optional imports to avoid RTD build failures
